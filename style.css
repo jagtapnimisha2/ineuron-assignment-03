@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow: hidden;
+}
+.container{
+    /* position: relative; */
+    background-color: rgb(51, 54, 46);
+}
+.navbar{
+    position: relative;
+    background-color: rgb(51, 54, 46);
+    width: 80%;
+    left: 8%;
+    right: 8%;
+    top: 30px;
+    height: auto;
+    
+    
+}
+.logo{
+    position: relative;
+    
+    height: 50px;
+    width: 150px;
+}
+nav div{
+    display: inline;
+}
+/* div{
+    
+    display: inline;
+} */
+.list{
+    display: inline;
+}
+.list-item{
+    position: relative;
+    display: inline;
+    font-size: 20px;
+    /* bottom: px; */
+    left: 250px;
+    color: rgb(134, 134, 132);
+    margin-left: 20px;
+    
+    
+
+}
+.button-small{
+    position: absolute;
+    top: 20px;
+    right: 3%;
+    height: 33px;
+    width: 150px;
+    font-size: 15px;
+    color: rgb(244, 244, 9);
+    background-color: rgb(51, 54, 46);
+    border: 1.5px solid rgb(244, 244, 9);
+    border-radius: 10px;
+}
+.hero{
+    position: relative;
+    left: 8%;
+    /* right: 10%; */
+    width: 90%;
+    top: 100px;
+    height: 317px;
+    /* left: 8%; */
+   
+}
+
+
+.hero-heading{ 
+    position: absolute;
+    display: inline;
+    overflow: scroll;
+    font-size: 72px;
+    font-weight: bolder;
+    color: azure;
+    width: 45%;
+    height: auto;
+    overflow: auto;
+    background-color: rgb(51, 54, 46);
+    
+}
+/* div p{
+    display: inline;
+    font-size: 9px;
+} */
+.hero-description{
+    position: absolute;
+    display: inline;
+    color: rgb(172, 174, 174);
+    /* font-weight: bolder; */
+    top: 60px;
+    font-size: 20px;
+    left:50%;
+    width: 28%;
+    /* width: 10px; */
+}
+#home{
+    color: aliceblue;
+    /* font-size: 25px; */
+}
+img{
+    width: 100.19%;
+
+}
